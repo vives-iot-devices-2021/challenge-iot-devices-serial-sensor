@@ -11,6 +11,9 @@ Some examples of data you can generate:
 * Sinus generator
 * PWM or PPM wave value generator
 
-Output the data in a self-chosen format.
+Output the data in a self-chosen format on:
+
+* using `printf` on the default serial port for debugging
+* on a `BufferedSerial` instance connected to one of the other serial ports
 
 Document your sensor in a `datasheet.md` file in this repository.
